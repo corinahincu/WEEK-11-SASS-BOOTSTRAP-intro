@@ -1,0 +1,48 @@
+// reset styles
+$color: LightSlateGrey; 
+
+body {
+  margin: 0;
+  font-family: Arial;
+}
+a{
+  text-decoration: none;
+}
+
+// page styles
+body{
+  background-color: darken($color, 15%);
+}
+
+
+
+// navbar
+.navbar{
+  background-color: $color;
+  display: flex;
+  box-shadow: 0 0 5px 1px darken($color, 30%);
+
+  .brand {
+      font-weight: bold;
+      font-size: 20px;
+      margin-right: auto;
+    }
+
+  .active {
+    color: orange;
+    text-decoration: underline;
+  }
+
+  a {
+    color: lighten(adjust-hue($color,120deg), 35%);
+    padding: 20px;
+
+    &:hover {
+        background-color: lighten($color, 12%);
+    }
+  }
+
+  
+}
+
+
