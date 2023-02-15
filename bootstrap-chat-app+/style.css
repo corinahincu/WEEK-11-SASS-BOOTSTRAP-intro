@@ -1,0 +1,12 @@
+.sa-text-justify{
+  text-align: justify;
+}
+
+.sa-reaction .dropdown-menu.show{
+  display: flex;
+  
+}
+
+.sa-size-50{
+  width: 50%;
+}

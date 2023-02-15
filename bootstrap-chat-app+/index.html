@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Social APP</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/css/bootstrap.min.css"
+    integrity="sha512-SbiR/eusphKoMVVXysTKG/7VseWii+Y3FdHrt0EpKgpToZeemhqHeZeLWLhJutz/2ut2Vw1uQEj2MbRF+TVBUA=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+    
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.3/font/bootstrap-icons.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/brands.min.css" integrity="sha512-L+sMmtHht2t5phORf0xXFdTC0rSlML1XcraLTrABli/0MMMylsJi3XA23ReVQkZ7jLkOEIMicWGItyK4CAt2Xw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css"
+      integrity="sha512-SzlrxWUlpfuzQ+pcUCosxcglQRNAq/DZjVsC0lE40xsADsfeQoEypE+enwcOiGjk/bSuGGKHEyjSoQ1zVisanQ=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <section class="container mt-3 mt-lg-5 sa-profile-page">
+    <div class="row">
+    <div class="sa-profile col-lg-4 border-end border-info">
+
+      <figure class="text-center">
+      <img class="img-thumbnail  " src="images/avatar-98b43815632e7c1c17cba88bc931d221.jpg" alt="Jane Doe" >
+        <figcaption>
+          <h2 class="text-primary">Jane Doe</h2>
+          <h3 class="fs-6">from Chisinau</h3>
+        </figcaption>
+      </figure>
+      
+      <!-- 
+        HW2: add friends list using list-group component ( with avatars)
+      -->
+        <div class="mb-3">
+        
+        <h4>Friends</h4>
+
+        <ul class="list-group list-group-horizontal">
+          <li class="list-group-item sa-size-50 flex-fill" ><img class="img-thumbnail" src="images/avatar-082e070be7adc99ab00fb19dcc6f6018.jpg" alt="Marie Cooper">Marie Cooper</li>
+          <li class="list-group-item sa-size-50 flex-fill" ><img class="img-thumbnail " src="images/avatar-abcdb21d87d041fe3bc8512144bfafe6.jpg" alt="Martina Addison">Martina Addison</li>
+          <li class="list-group-item sa-size-50 flex-fill" ><img class="img-thumbnail " src="images/avatar-b90a5040deb63e2e963aae0070bfa065.jpg" alt="Kate Moore">Kate Moore</li>
+          <li class="list-group-item sa-size-50 flex-fill" ><img class="img-thumbnail" src="images/avatar-f74fb034d3ad4436a7a304d4ef92d589.jpg" alt="Lucrezia Manzoni">Lucrezia Manzoni</li>
+    
+        </ul>
+        
+        <button type="button" class="btn btn-outline-secondary btn-sm rounded-pill my-2 bg-text-secondary">See All Friends</button>
+        
+        
+      </div>
+    </div>
+    <div  class="sa-posts col-lg-8">
+      <article>
+        <header class="mb-3 d-flex flex-column-reverse">
+          <h1 class="text-primary">Lorem ipsum dolor sit amet.</h1>
+          <img class="img-fluid" src="images/441-900x400.jpg" alt="street">
+        </header>
+        
+        <p class="sa-text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quo. Ducimus hic maiores dolorum aut recusandae magnam sapiente harum illo tempore ab! Id eligendi, sapiente blanditiis amet repellat assumenda. Eum tempore numquam cumque facere voluptates accusantium recusandae, eveniet quisquam, totam id culpa repudiandae corporis optio corrupti aliquam illum repellat iste laborum tenetur iure officiis modi. Rerum aut nisi nam deleniti totam maiores aperiam! Deserunt numquam repellendus, ex quis culpa totam repellat officiis sit esse nobis in soluta ab voluptatum impedit, fugiat nihil enim. Quaerat labore numquam, quod placeat cupiditate minima recusandae omnis soluta ratione, blanditiis at eveniet voluptates deleniti porro.</p>
+        
+        <div id="article-continuation" class="collapse">
+
+        <p class="sa-text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quo. Ducimus hic maiores dolorum
+          aut recusandae magnam sapiente harum illo tempore ab! Id eligendi, sapiente blanditiis amet repellat assumenda. Eum
+          tempore numquam cumque facere voluptates accusantium recusandae, eveniet quisquam, totam id culpa repudiandae corporis
+          optio corrupti aliquam illum repellat iste laborum tenetur iure officiis modi. Rerum aut nisi nam deleniti totam
+          maiores aperiam! Deserunt numquam repellendus, ex quis culpa totam repellat officiis sit esse nobis in soluta ab
+          voluptatum impedit, fugiat nihil enim. Quaerat labore numquam, quod placeat cupiditate minima recusandae omnis soluta
+          ratione, blanditiis at eveniet voluptates deleniti porro.</p>
+
+          <p class="sa-text-justify">Lorem ipsum dolor sit amet consectetur adipisicing elit. A, quo. Ducimus hic maiores dolorum
+            aut recusandae magnam sapiente harum illo tempore ab! Id eligendi, sapiente blanditiis amet repellat assumenda. Eum
+            tempore numquam cumque facere voluptates accusantium recusandae, eveniet quisquam, totam id culpa repudiandae corporis
+            optio corrupti aliquam illum repellat iste laborum tenetur iure officiis modi. Rerum aut nisi nam deleniti totam
+            maiores aperiam! Deserunt numquam repellendus, ex quis culpa totam repellat officiis sit esse nobis in soluta ab
+            voluptatum impedit, fugiat nihil enim. Quaerat labore numquam, quod placeat cupiditate minima recusandae omnis soluta
+            ratione, blanditiis at eveniet voluptates deleniti porro.</p>
+
+            </div>
+
+        <footer class="text-end">
+          <a class="btn btn-link" href="#article-continuation" data-bs-toggle="collapse">more <i class="bi bi-caret-right"></i></a>
+
+          <div class="text-start dropdown sa-reaction">
+
+            <a class="btn btn-link text-decoration-none " href="#" data-bs-toggle="dropdown"><i class="fa-solid fa-thumbs-up"></i>like</a>
+            <ul class="dropdown-menu">
+              <li><a href="" class="dropdown-item"></a>
+                <i class="fa-regular fa-face-smile-beam text-warning"></i>
+              </li>
+              <li><a href="" class="dropdown-item"></a>
+                <i class="fa-solid fa-fire text-danger"></i>
+              </li>
+              <li><a href="" class="dropdown-item"></a>
+                <i class="fa-solid fa-heart text-danger"></i>
+              </li>
+            </ul>
+
+            <!--  
+              HW1: color each icon on a specific color
+            -->
+          </div>
+          
+        </footer>
+      
+      </article>
+
+
+    </div>
+    </div>
+  </section>
+
+
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.2.3/js/bootstrap.bundle.min.js"
+    integrity="sha512-i9cEfJwUwViEPFKdC1enz4ZRGBj8YQo6QByFTF92YXHi7waCqyexvRD75S5NVTsSiTv7rKWqG9Y5eFxmRsOn0A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+</body>
+</html>
