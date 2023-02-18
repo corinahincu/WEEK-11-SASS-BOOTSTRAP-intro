@@ -1,0 +1,36 @@
+body{
+  background-color: #234;
+  color: white;
+  padding: 1em;
+  font-family: Arial;
+}
+
+.collapse-container {
+  border: 1px solid #456;
+  padding: 1em;
+}
+
+.collapse-title{
+  cursor: pointer;
+  /* HW1: disable user selection inside this element */
+  user-select: none;
+}
+
+.collapse-title img{
+  width: 32px;
+  transform: translateY(8px);
+  filter: invert(1);
+
+}
+
+.collapse-content{
+  padding-left: 38px;
+  overflow: hidden;
+  transition: 0.5s;
+  height: 200px;
+}
+
+.collapse-content.hidden {
+  height: 0;
+  
+}
